@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+
+}
+.profile-card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    max-width: 600px;
+     width: 600px;
+    background: #fff;
+    border-radius: 24px;
+    padding: 40px;
+    padding-bottom: 45px;
+    box-shadow: 0 5px 10px  rgba(0, 0, 0,1);
+
+}
+
+.image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    padding: 3px;
+    margin bottom: 10px;
+
+
+}
+.image .profile-img{
+    height: 150%;
+    width: 150%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgba(26, 228, 228, 0.568);
+    
+
+
+}
+.profile-card  .text-data{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+     padding:15%;
+
+}
+.text-data .name{
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.text-data .job{
+    font-size: 35px;
+    font-weight: 700;
+
+
+}
+.profile-card .media-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 0%;
+}
+.media-buttons .link{
+    background-color: #4070f4;
+    text-decoration: none;
+    margin: 3px 8px ;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.profile-card .buttons{
+    align-items: center;
+    display: flex;
+    margin-top: 25px;
+    
+}
+.buttons .button{
+    background-color: #4070f4;
+    padding: 8px 24px;
+    margin: 0 10px;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3sec ease ;
+}
+.button .button:hover{
+    background-color: #0e4bf1;
+}
